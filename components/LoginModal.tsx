@@ -9,6 +9,8 @@ import {
 	ModalCloseButton,
 	ModalFooter,
 	Text,
+	Box,
+	Input,
 } from "@chakra-ui/react"
 
 const LoginModal = () => {
@@ -26,11 +28,43 @@ const LoginModal = () => {
 			>
 				<ModalOverlay />
 				<ModalContent>
-					<ModalHeader>Modal Title</ModalHeader>
+					<ModalHeader>Login</ModalHeader>
 					<ModalCloseButton />
 					<ModalBody>
-						Lorem ipsum dolor sit, amet consectetur adipisicing
-						elit. Quae, fugiat.
+						<Box
+							display="flex"
+							flexDirection="column"
+							alignItems="center"
+							paddingX="8"
+							paddingY="12"
+						>
+							<Text
+								fontSize="4xl"
+								fontWeight="black"
+								color="#f64060"
+								className="font-grape"
+								marginBottom="4"
+							>
+								meeTup
+							</Text>
+							<Input
+								focusBorderColor="#f64060"
+								marginBottom="2"
+								type={"email"}
+								required
+								placeholder="Email Here..."
+							/>
+							<Input
+								focusBorderColor="#f64060"
+								marginBottom="2"
+								type={"password"}
+								required
+								placeholder="Password Here..."
+							/>
+							<Button background="#f64060" width="full">
+								Button
+							</Button>
+						</Box>
 					</ModalBody>
 				</ModalContent>
 			</Modal>

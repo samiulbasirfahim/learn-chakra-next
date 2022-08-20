@@ -2,6 +2,7 @@ import { Box, Button, Text } from "@chakra-ui/react"
 import Link from "next/link"
 import { GrLanguage } from "react-icons/gr"
 import LoginModal from "./LoginModal"
+import RegisterModal from "./RegisterModal"
 
 const Navbar = () => {
 	return (
@@ -36,9 +37,7 @@ const Navbar = () => {
 
 				<LoginModal />
 
-				<Button background="transparent">
-					<Text fontSize="sm">Sign Up</Text>
-				</Button>
+				<RegisterModal />
 			</Box>
 		</Box>
 	)
