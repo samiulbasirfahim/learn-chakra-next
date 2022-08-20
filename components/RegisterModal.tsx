@@ -7,11 +7,9 @@ import {
 	ModalBody,
 	ModalContent,
 	ModalCloseButton,
-	ModalFooter,
 	Text,
 	Box,
 	Input,
-	FormControl,
 } from "@chakra-ui/react"
 
 const RegisterModal = () => {

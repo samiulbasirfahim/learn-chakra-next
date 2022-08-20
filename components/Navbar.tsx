@@ -15,7 +15,15 @@ const Navbar = () => {
 		>
 			<Box>
 				<Link href="/">
-					<Button background="transparent">
+					<Button
+						background="transparent"
+						_hover={{
+							backgroundColor: "transparent",
+						}}
+						_active={{
+							backgroundColor: "transparent",
+						}}
+					>
 						<Text
 							fontSize="4xl"
 							fontWeight="black"
@@ -27,16 +35,14 @@ const Navbar = () => {
 					</Button>
 				</Link>
 			</Box>
-			<Box display="flex" alignItems="center">
+			<Box display="flex" alignItems="center" >
 				<Button background="transparent">
 					<GrLanguage />{" "}
 					<Text marginLeft="4" fontSize="sm">
 						English
 					</Text>
 				</Button>
-
 				<LoginModal />
-
 				<RegisterModal />
 			</Box>
 		</Box>
