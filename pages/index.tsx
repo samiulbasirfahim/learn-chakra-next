@@ -1,8 +1,9 @@
 import { Box, Container, Text } from "@chakra-ui/react"
 import { NextPage } from "next"
+import Navbar from "../components/Navbar"
 
 const Home: NextPage = () => {
-	return <Container></Container>
+	return <></>
 }
 
 export default Home
