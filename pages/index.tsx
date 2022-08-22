@@ -1,9 +1,14 @@
-import { Box, Container, Text } from "@chakra-ui/react"
 import { NextPage } from "next"
+import Banner from "../components/Banner"
 import Navbar from "../components/Navbar"
 
 const Home: NextPage = () => {
-	return <></>
+	return (
+		<>
+			<Navbar />
+			<Banner />
+		</>
+	)
 }
 
 export default Home

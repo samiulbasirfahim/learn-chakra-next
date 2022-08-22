@@ -35,9 +35,9 @@ const Navbar = () => {
 					</Button>
 				</Link>
 			</Box>
-			<Box display="flex" alignItems="center" >
+			<Box display="flex" alignItems="center">
 				<Button background="transparent">
-					<GrLanguage />{" "}
+					<GrLanguage />
 					<Text marginLeft="4" fontSize="sm">
 						English
 					</Text>
